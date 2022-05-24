@@ -7,3 +7,4 @@ Examples of the Java programming language feature.
 
 * [Java 8](java-8/)
   * Date Time API
+  * Method Reference
