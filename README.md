@@ -3,7 +3,7 @@
 # Java Features
 Examples of the Java programming language feature.
 
-## Resume by Version
+## Version Features 
 
 * [Java 8](java-8/)
   * Date Time API
