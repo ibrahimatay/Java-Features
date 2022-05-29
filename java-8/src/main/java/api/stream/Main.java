@@ -1,9 +1,6 @@
 package api.stream;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.DoubleSummaryStatistics;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -17,6 +14,12 @@ public class Main {
         System.out.println("\n------map method------\n");
         List<Integer> numbers = Arrays.asList(1,3,5,7,9);
         numbers.stream().map(x-> x*2).collect(Collectors.toList()).forEach(System.out::println);
+
+        // allMatch method
+        System.out.println("\n------allMatch method------\n");
+        boolean hasUnevenNumber = numbers.stream().allMatch(n-> n % 2 == 0);
+        String arrays = numbers.stream().map(x-> x.toString()).collect(Collectors.joining(","));
+        System.out.println(String.format("There are even numbers (%b) in that array (%s)", hasUnevenNumber, arrays));
 
         // filter method
         System.out.println("\n------filter method------\n");
@@ -71,8 +74,31 @@ public class Main {
 
         // distinct method
         System.out.println("\n------distinct method------\n");
+        System.out.println("Example 1:\n");
+
         List<Integer> duplicatedNumbers = Arrays.asList(1,2,2,5,7,8,9,2,6,7,10,11,1,23,78,7);
         duplicatedNumbers.stream().distinct().sorted().forEach(System.out::println);
+
+        System.out.println("\nExample 2:\n");
+        // https://stackoverflow.com/questions/23699371/java-8-distinct-by-property
+        List<Scientist> duplicatedScientists = Arrays.asList(
+                new Scientist("Barbara Liskov"),
+                new Scientist("Grace Hopper"),
+                new Scientist("Dennis Ritchie"),
+                new Scientist("Donald Knuth"),
+                new Scientist("Edsger W. Dijkstra"),
+                new Scientist("James Gosling"),
+                new Scientist("Grace Hopper"),
+                new Scientist("Dennis Ritchie"),
+                new Scientist("Donald Knuth"),
+                new Scientist("Edsger W. Dijkstra"),
+                new Scientist("Grace Hopper"),
+                new Scientist("Dennis Ritchie"),
+                new Scientist("Donald Knuth"),
+                new Scientist("Edsger W. Dijkstra")
+        );
+
+        duplicatedScientists.stream().distinct().forEach(System.out::println);
 
         // Collectors.joining & map methods
         System.out.println("\n------Collectors.joining & map methods------\n");
@@ -150,6 +176,19 @@ class Scientist {
         return "Scientist{" +
                 "name='" + name + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Scientist scientist = (Scientist) o;
+        return Objects.equals(name, scientist.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
     }
 }
 
