@@ -10,3 +10,4 @@ Examples of the Java programming language feature.
   * Method Reference
   * Stream API
   * ScriptFactory/Nashorn 
+  * Base64
