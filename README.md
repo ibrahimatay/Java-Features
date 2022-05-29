@@ -12,3 +12,4 @@ Examples of the Java programming language feature.
   * ScriptFactory/Nashorn 
   * Base64
   * Static and Default Methods in Interface
+  * Functional interface 
