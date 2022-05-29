@@ -5,6 +5,9 @@ Examples of the Java programming language feature.
 
 ## Version History
 
+* [Java 9](java-9/)
+  * Interface Private Methods
+
 * [Java 8](java-8/)
   * Date Time API
   * Method Reference
