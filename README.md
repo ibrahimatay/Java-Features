@@ -11,3 +11,4 @@ Examples of the Java programming language feature.
   * Stream API
   * ScriptFactory/Nashorn 
   * Base64
+  * Static and Default Methods in Interface
