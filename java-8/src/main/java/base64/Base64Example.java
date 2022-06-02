@@ -1,4 +1,4 @@
-package api.base64;
+package base64;
 
 import java.util.Base64;
 

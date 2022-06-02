@@ -1,4 +1,4 @@
-package api.datetime;
+package datetime;
 
 import java.time.LocalTime;
 import java.time.ZoneId;

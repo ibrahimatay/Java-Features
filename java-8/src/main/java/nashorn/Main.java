@@ -1,4 +1,4 @@
-package api.nashorn;
+package nashorn;
 
 import javax.script.Invocable;
 import javax.script.ScriptEngine;
