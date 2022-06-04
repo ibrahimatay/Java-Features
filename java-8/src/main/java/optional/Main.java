@@ -20,6 +20,13 @@ public class Main {
         Optional<Person> person = Optional.of(samplePerson);
 
         Optional<Person> ofNullable = Optional.ofNullable(null);
+        if (ofNullable.isPresent()) {
+            System.out.println("ofNullable variable is not a null");
+        } else {
+            System.out.println("ofNullable variable is a null");
+        }
+
+        ofNullable.ifPresent(p -> System.out.println(p));
 
         Optional<Integer> optionalNumber = Optional.ofNullable(null);
         Integer number01 = optionalNumber.orElse(1919);
