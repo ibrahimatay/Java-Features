@@ -9,6 +9,7 @@ Examples of the Java programming language feature.
   * Interface Private Methods
   * HTTP/2 Client
   * The try-with-resources Improvements
+  * Private Method in Interfaces
 
 * [Java 8](java-8/)
   * Date Time API
