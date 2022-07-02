@@ -1,6 +1,5 @@
 # Java 9
 
-  * Interface Private Methods
   * HTTP/2 Client
   * The try-with-resources Improvements
   * Private Method in Interfaces
