@@ -7,6 +7,7 @@ Examples of the Java programming language feature.
 
 * [Java 11](java-11/)
   * Local Variable Type Inference (JEP-286)
+  * New String Methods
 
 * [Java 10](java-10/)
   * Process API improvements
