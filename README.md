@@ -9,6 +9,7 @@ Examples of the Java programming language feature.
   * Local Variable Type Inference (JEP-286)
   * New String Methods (isBlank, lines, repeat, strip, stripLeading, stripTrailing)
   * New File Methods (readString, writeString, writeString with Charset)
+  * Nest-Based Access Control (JEP 181)
 * [Java 10](java-10/)
   * Process API improvements
   * Collections API improvements
