@@ -42,11 +42,15 @@ public class NestBasedAccessControl {
         Class<?> nestedHost = NestBasedAccessControl.class.getNestHost();
         Arrays.stream(nestedHost.getNestMembers()).collect(Collectors.toList()).forEach(System.out::println);
         // class com.ibrahimatay.NestBasedAccessControl
+        // class com.ibrahimatay.NestBasedAccessControl$NestedClass3
+        // class com.ibrahimatay.NestBasedAccessControl$NestedClass2
         // class com.ibrahimatay.NestBasedAccessControl$NestedClass
 
         Class<?>[] nestedMembers = NestBasedAccessControl.class.getNestMembers();
         Arrays.stream(nestedMembers).collect(Collectors.toList()).forEach(System.out::println);
         // class com.ibrahimatay.NestBasedAccessControl
+        // class com.ibrahimatay.NestBasedAccessControl$NestedClass3
+        // class com.ibrahimatay.NestBasedAccessControl$NestedClass2
         // class com.ibrahimatay.NestBasedAccessControl$NestedClass
 
         System.out.println("NestedClass class is class in NestBasedAccessControl:"+ NestBasedAccessControl.class.isNestmateOf(NestedClass.class));
