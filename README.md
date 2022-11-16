@@ -11,6 +11,8 @@ Examples of the Java programming language feature.
   * New File Methods (readString, writeString, writeString with Charset)
   * Nest-Based Access Control (JEP 181)
   * Transport Layer Security (TLS) 1.3 (JEP 332)
+  * New Collection.toArray() Method
+  
 * [Java 10](java-10/)
   * Process API improvements
   * Collections API improvements
