@@ -6,12 +6,12 @@ Examples of the Java programming language feature.
 ## Version History
 
 * [Java 11](java-11/)
-  * Local Variable Type Inference (JEP-286)
-  * New String Methods (isBlank, lines, repeat, strip, stripLeading, stripTrailing)
-  * New File Methods (readString, writeString, writeString with Charset)
-  * Nest-Based Access Control (JEP 181)
-  * Transport Layer Security (TLS) 1.3 (JEP 332)
-  * New Collection.toArray() Method
+  * JEP-286: Local Variable Type Inference
+  * New String Methods (`isBlank()`, `lines()`, `repeat()`, `strip()`, `stripLeading()`, `stripTrailing()`)
+  * New File Methods (`readString(Path)`, `writeString(Path, CharSequence, OpenOption...)`, `writeString(Path.of("message.txt"), updatedMessage)`)
+  * JEP 181: Nest-Based Access Control
+  * JEP 332: Transport Layer Security (TLS) 1.3
+  * New `Collection.toArray()` Method
   
 * [Java 10](java-10/)
   * Process API improvements
