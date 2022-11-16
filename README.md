@@ -31,3 +31,6 @@ Examples of the Java programming language feature.
   * Static and Default Methods in Interface
   * Functional interface 
   * Optional 
+
+## Notes
+- [The Java Version Almanac](https://javaalmanac.io/)
