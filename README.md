@@ -13,6 +13,7 @@ Examples of the Java programming language feature.
   * JEP 332: Transport Layer Security (TLS) 1.3
   * New `Collection.toArray()` Method
   * JEP 318: Epsilon: A No-Op Garbage Collector
+  * JEP 327: Unicode 10
   
 * [Java 10](java-10/)
   * Process API improvements
