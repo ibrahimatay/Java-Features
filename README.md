@@ -12,6 +12,7 @@ Examples of the Java programming language feature.
   * JEP 181: Nest-Based Access Control
   * JEP 332: Transport Layer Security (TLS) 1.3
   * New `Collection.toArray()` Method
+  * JEP 318: Epsilon: A No-Op Garbage Collector
   
 * [Java 10](java-10/)
   * Process API improvements
