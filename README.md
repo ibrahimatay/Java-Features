@@ -5,7 +5,7 @@ Examples of the Java programming language feature.
 
 ## Version History
 
-* [Java 11](java-11/)
+* [Java 11](java-11/) (September, 2018)
   * [JEP 181](https://openjdk.java.net/jeps/181): Nest-Based Access Control
   * [JEP 286](https://openjdk.java.net/jeps/286): Local Variable Type Inference
   * [JEP 318](https://openjdk.java.net/jeps/318): Epsilon: A No-Op Garbage Collector
@@ -25,16 +25,16 @@ Examples of the Java programming language feature.
     * New `Collection.toArray()` Method
 
   
-* [Java 10](java-10/)
+* [Java 10](java-10/) (March, 2018)
   * Process API improvements
   * Collections API improvements
 
-* [Java 9](java-9/)
+* [Java 9](java-9/) (September, 2017)
   * HTTP/2 Client
   * The try-with-resources Improvements
   * Private Method in Interfaces
 
-* [Java 8](java-8/)
+* [Java 8](java-8/) (March, 2014)
   * Date Time API
   * Method Reference
   * Stream API
