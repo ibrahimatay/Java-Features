@@ -46,3 +46,6 @@ Examples of the Java programming language feature.
 
 ## Notes
 - [The Java Version Almanac](https://javaalmanac.io/)
+- [JDK Release Notes](https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html)
+- [Place to get early releases from Oracle's JDK](https://jdk.java.net/)
+- [OpenJDK Projects](https://openjdk.java.net/projects/)
