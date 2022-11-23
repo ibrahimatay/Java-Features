@@ -1,6 +1,6 @@
 package com.ibrahimatay;
 
-public class MemoryPolluter {
+public class JEP318MemoryPolluter {
     // JEP 318: Epsilon: A No-Op Garbage Collector
     // https://openjdk.org/jeps/318
 

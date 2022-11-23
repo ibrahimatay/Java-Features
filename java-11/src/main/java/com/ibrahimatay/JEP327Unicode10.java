@@ -1,6 +1,6 @@
 package com.ibrahimatay;
 
-public class Unicode10 {
+public class JEP327Unicode10 {
     // JEP 327: Unicode 10
     // https://openjdk.org/jeps/327
 

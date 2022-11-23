@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 * JEP 181: Nest-Based Access Control
 * https://openjdk.org/jeps/181
 * */
-public class NestBasedAccessControl {
+public class JEP181NestBasedAccessControl {
     public void publicMethod() {
 
     }
@@ -39,22 +39,22 @@ public class NestBasedAccessControl {
     }
 
     public static void main(String[] args) {
-        Class<?> nestedHost = NestBasedAccessControl.class.getNestHost();
+        Class<?> nestedHost = JEP181NestBasedAccessControl.class.getNestHost();
         Arrays.stream(nestedHost.getNestMembers()).collect(Collectors.toList()).forEach(System.out::println);
         // class com.ibrahimatay.NestBasedAccessControl
         // class com.ibrahimatay.NestBasedAccessControl$NestedClass3
         // class com.ibrahimatay.NestBasedAccessControl$NestedClass2
         // class com.ibrahimatay.NestBasedAccessControl$NestedClass
 
-        Class<?>[] nestedMembers = NestBasedAccessControl.class.getNestMembers();
+        Class<?>[] nestedMembers = JEP181NestBasedAccessControl.class.getNestMembers();
         Arrays.stream(nestedMembers).collect(Collectors.toList()).forEach(System.out::println);
         // class com.ibrahimatay.NestBasedAccessControl
         // class com.ibrahimatay.NestBasedAccessControl$NestedClass3
         // class com.ibrahimatay.NestBasedAccessControl$NestedClass2
         // class com.ibrahimatay.NestBasedAccessControl$NestedClass
 
-        System.out.println("NestedClass class is class in NestBasedAccessControl:"+ NestBasedAccessControl.class.isNestmateOf(NestedClass.class));
-        System.out.println("NestBasedAccessControl class is not class in NestedClass:"+ NestedClass.class.isNestmateOf(NestBasedAccessControl.class));
+        System.out.println("NestedClass class is class in NestBasedAccessControl:"+ JEP181NestBasedAccessControl.class.isNestmateOf(NestedClass.class));
+        System.out.println("NestBasedAccessControl class is not class in NestedClass:"+ NestedClass.class.isNestmateOf(JEP181NestBasedAccessControl.class));
         // NestedClass class is class in NestBasedAccessControl:true
         // NestBasedAccessControl class is not class in NestedClass:true
     }

@@ -4,7 +4,7 @@ import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 import java.io.*;
 
-public class TLS13 {
+public class JEP332TLS13 {
     public static void main(String[] args) {
 
         //JEP 332: Transport Layer Security (TLS) 1.3

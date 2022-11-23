@@ -9,7 +9,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.spec.AlgorithmParameterSpec;
 import java.util.Base64;
 
-public class ChaCha20Poly1305 {
+public class JEP329ChaCha20Poly1305 {
     // JEP 329: ChaCha20 and Poly1305 Cryptographic Algorithms
     // https://openjdk.org/jeps/329
 
