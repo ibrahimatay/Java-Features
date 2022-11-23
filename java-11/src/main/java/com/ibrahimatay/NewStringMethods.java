@@ -2,7 +2,7 @@ package com.ibrahimatay;
 
 import java.util.stream.Collectors;
 
-public class StringMethods {
+public class NewStringMethods {
     public static void main(String[] args) {
         // https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
         System.out.println("  ".isBlank()); // is true
