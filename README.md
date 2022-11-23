@@ -27,9 +27,10 @@ Examples of the Java programming language feature.
 
   
 * [Java 10](java-10/) (March, 2018)
-  * [JEP 322](https://openjdk.java.net/jeps/322): Time-Based Release Versioning 
-  * Process API improvements
+  * [JEP 322](https://openjdk.java.net/jeps/322): Time-Based Release Versioning
   * API Improvements
+    * Standard Class Libraries
+      * `java.lang.management.RuntimeMXBean.getPid()`: Returns the pid of the running Java virtual machine.
     * New Collection Methods
       * `copyOf()`
       * `toUnmodifiableList()`
