@@ -28,7 +28,7 @@ Examples of the Java programming language feature.
   
 * [Java 10](java-10/) (March, 2018)
   * Process API improvements
-  * API improvements
+  * API Improvements
     * New Collection Methods
       * `copyOf()`
       * `toUnmodifiableList()`
