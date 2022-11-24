@@ -41,6 +41,7 @@ Examples of the Java programming language feature.
       * `Collectors.toUnmodifiableList() `
       * `Collectors.toUnmodifiableSet()`
       * `Collectors.toUnmodifiableMap()`
+      * `Optional.orElseThrow()`
 
 * [Java 9](java-9/) (September, 2017)
   * HTTP/2 Client
