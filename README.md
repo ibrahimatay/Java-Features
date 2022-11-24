@@ -37,6 +37,7 @@ Examples of the Java programming language feature.
       * `List.copyOf()`
       * `Set.copyOf()` 
       * `Map.copyOf()`
+    * Stream Improvements
       * `Collectors.toUnmodifiableList() `
       * `Collectors.toUnmodifiableSet()`
       * `Collectors.toUnmodifiableMap()`
