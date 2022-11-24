@@ -34,8 +34,12 @@ Examples of the Java programming language feature.
     * Standard Class Libraries
       * `java.lang.management.RuntimeMXBean.getPid()`: Returns the pid of the running Java virtual machine.
     * New Collection Methods
-      * `copyOf()`
-      * `toUnmodifiableList()`
+      * `List.copyOf()`
+      * `Set.copyOf()` 
+      * `Map.copyOf()`
+      * `Collectors.toUnmodifiableList() `
+      * `Collectors.toUnmodifiableSet()`
+      * `Collectors.toUnmodifiableMap()`
 
 * [Java 9](java-9/) (September, 2017)
   * HTTP/2 Client
