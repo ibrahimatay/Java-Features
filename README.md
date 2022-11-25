@@ -49,6 +49,7 @@ Examples of the Java programming language feature.
   * Private Method in Interfaces
 
 * [Java 8](java-8/) (March, 2014)
+  * [JEP 135](https://openjdk.java.net/jeps/135): Base64 Encoding & Decoding
   * Date Time API
   * Method Reference
   * Stream API
