@@ -22,6 +22,12 @@ public class JEP286LocalVariableTypeInference {
         // [cloud, fine, pen, dog, temper, sky, book]
 
         var person = new Person("Cansu");
+        var message = "Welcome to Java";
+        if (message instanceof String){
+            System.out.println("'"+ message +"' is type of String");
+        } else {
+            System.out.println("'"+ message +"' is not type of String");
+        }
     }
 }
 
