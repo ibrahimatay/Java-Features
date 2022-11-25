@@ -7,7 +7,6 @@ Examples of the Java programming language feature.
 
 * [Java 11](java-11/) (September, 2018)
   * [JEP 181](https://openjdk.java.net/jeps/181): Nest-Based Access Control
-  * [JEP 286](https://openjdk.java.net/jeps/286): Local Variable Type Inference
   * [JEP 318](https://openjdk.java.net/jeps/318): Epsilon: A No-Op Garbage Collector
   * [JEP 321](https://openjdk.java.net/jeps/321): HTTP Client (Standard)
   * [JEP 327](https://openjdk.java.net/jeps/327): Unicode 10
@@ -37,7 +36,7 @@ Examples of the Java programming language feature.
       * `List.copyOf()`
       * `Set.copyOf()` 
       * `Map.copyOf()`
-    * Stream Improvement Methods
+    * New Stream Methods
       * `Collectors.toUnmodifiableList() `
       * `Collectors.toUnmodifiableSet()`
       * `Collectors.toUnmodifiableMap()`
