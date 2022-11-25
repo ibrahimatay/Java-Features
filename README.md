@@ -9,6 +9,7 @@ Examples of the Java programming language feature.
   * [JEP 181](https://openjdk.java.net/jeps/181): Nest-Based Access Control
   * [JEP 318](https://openjdk.java.net/jeps/318): Epsilon: A No-Op Garbage Collector
   * [JEP 321](https://openjdk.java.net/jeps/321): HTTP Client (Standard)
+  * [JEP 323](https://openjdk.java.net/jeps/323): Local-Variable Syntax for Lambda Parameters
   * [JEP 327](https://openjdk.java.net/jeps/327): Unicode 10
   * [JEP 329](https://openjdk.java.net/jeps/329): ChaCha20 and Poly1305 Cryptographic Algorithms
   * [JEP 332](https://openjdk.java.net/jeps/332): Transport Layer Security (TLS) 1.3
