@@ -44,6 +44,7 @@ Examples of the Java programming language feature.
       * `Optional.orElseThrow()`
 
 * [Java 9](java-9/) (September, 2017)
+  * [JEP 213](https://openjdk.java.net/jeps/213): Milling Project Coin
   * HTTP/2 Client
   * The try-with-resources Improvements
   * Private Method in Interfaces
