@@ -32,7 +32,7 @@ Examples of the Java programming language feature.
   * [JEP 322](https://openjdk.java.net/jeps/322): Time-Based Release Versioning
   * API Improvements
     * Standard Class Libraries
-      * `java.lang.management.RuntimeMXBean.getPid()`: Returns the pid of the running Java virtual machine.
+      * `java.lang.management.RuntimeMXBean.getPid()`: Returns the pid of the running JVM.
     * New Collection Methods
       * `List.copyOf()`
       * `Set.copyOf()` 
