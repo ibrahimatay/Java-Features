@@ -1,12 +1,13 @@
-package nashorn;
-
 import javax.script.Invocable;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
-public class Main {
+public class JEP174NashornJavaScriptEngine {
     public static void main(String[] args) throws ScriptException, NoSuchMethodException {
+        // JEP 174: Nashorn JavaScript Engine
+        // https://openjdk.org/jeps/174
+
         // https://docs.oracle.com/javase/8/docs/api/javax/script/ScriptEngine.html
         ScriptEngineManager factory = new ScriptEngineManager();
 

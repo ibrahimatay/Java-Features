@@ -51,10 +51,10 @@ Examples of the Java programming language feature.
 
 * [Java 8](java-8/) (March, 2014)
   * [JEP 135](https://openjdk.java.net/jeps/135): Base64 Encoding & Decoding
+  * [JEP 174](https://openjdk.java.net/jeps/174): Nashorn JavaScript Engine
   * Date Time API
   * Method Reference
   * Stream API
-  * ScriptFactory/Nashorn 
   * Base64
   * Static and Default Methods in Interface
   * Functional interface 
