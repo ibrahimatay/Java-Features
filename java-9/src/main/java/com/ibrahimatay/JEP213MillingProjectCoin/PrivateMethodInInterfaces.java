@@ -1,9 +1,9 @@
-package com.ibrahimatay;
+package com.ibrahimatay.JEP213MillingProjectCoin;
 
 import java.util.function.IntPredicate;
 import java.util.stream.IntStream;
 
-public class JEP213MillingProjectCoin implements Calculator, Message{
+public class PrivateMethodInInterfaces implements Calculator, Message{
     public static void main(String[] args) {
         // JEP 213: Milling Project Coin
         // https://openjdk.org/jeps/213
@@ -11,7 +11,7 @@ public class JEP213MillingProjectCoin implements Calculator, Message{
         // What’s New for the Java Language in JDK 9
         // https://docs.oracle.com/javase/9/whatsnew/toc.htm#JSNEW-GUID-825576B5-203C-4C8D-85E5-FFDA4CA0B346
 
-        var calculator = new JEP213MillingProjectCoin();
+        var calculator = new PrivateMethodInInterfaces();
 
         int sumOfEvens = calculator.addEvenNumbers(1,2,3,4,5,6,7,8,9);
         System.out.println(sumOfEvens);
@@ -21,7 +21,7 @@ public class JEP213MillingProjectCoin implements Calculator, Message{
         System.out.println(sumOfOdds);
         // 25
 
-        var message = new JEP213MillingProjectCoin();
+        var message = new PrivateMethodInInterfaces();
         message.method1();
         message.method2();
         Message.method3();

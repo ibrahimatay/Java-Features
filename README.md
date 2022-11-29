@@ -46,8 +46,10 @@ Examples of the Java programming language feature.
 * [Java 9](java-9/) (September, 2017)
   * [JEP 110](https://openjdk.java.net/jeps/110): HTTP/2 Client
   * [JEP 213](https://openjdk.java.net/jeps/213): Milling Project Coin
-  * The try-with-resources Improvements
-  * Private Method in Interfaces
+    * The try-with-resources Improvements
+    * Private Methods in the Interface
+    * Using underscores in numeric literals
+    * SafeVarargs to Support Private Methods
 
 * [Java 8](java-8/) (March, 2014)
   * [JEP 135](https://openjdk.java.net/jeps/135): Base64 Encoding & Decoding
