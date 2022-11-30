@@ -11,7 +11,7 @@ public class PrivateMethodInInterfaces implements Calculator, Message{
         // What’s New for the Java Language in JDK 9
         // https://docs.oracle.com/javase/9/whatsnew/toc.htm#JSNEW-GUID-825576B5-203C-4C8D-85E5-FFDA4CA0B346
 
-        var calculator = new PrivateMethodInInterfaces();
+        PrivateMethodInInterfaces calculator = new PrivateMethodInInterfaces();
 
         int sumOfEvens = calculator.addEvenNumbers(1,2,3,4,5,6,7,8,9);
         System.out.println(sumOfEvens);
@@ -21,7 +21,7 @@ public class PrivateMethodInInterfaces implements Calculator, Message{
         System.out.println(sumOfOdds);
         // 25
 
-        var message = new PrivateMethodInInterfaces();
+        PrivateMethodInInterfaces message = new PrivateMethodInInterfaces();
         message.method1();
         message.method2();
         Message.method3();
