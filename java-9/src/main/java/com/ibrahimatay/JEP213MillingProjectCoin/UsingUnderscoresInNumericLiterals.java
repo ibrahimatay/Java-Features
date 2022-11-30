@@ -14,6 +14,9 @@ public class UsingUnderscoresInNumericLiterals {
 
         // int x4 = 052_; // Invalid; cannot put underscores at the end of a number
 
+        // double PI = 3_.14; // compilation error
+        // double PI = 3._14; // // compilation error
+
         //long socialSecurityNumber1 = 999_99_9999_L; // Invalid; cannot put underscores
 
         long creditCardNumber = 6684_5678_9012_3456L;
