@@ -67,3 +67,4 @@ Examples of the Java programming language feature.
 - [JDK Release Notes](https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html)
 - [Place to get early releases from Oracle's JDK](https://jdk.java.net/)
 - [OpenJDK Projects](https://openjdk.java.net/projects/)
+- [What is the difference (or relation) between JLS, JSR and JEP?](https://stackoverflow.com/questions/51282326/what-is-the-difference-or-relation-between-jls-jsr-and-jep)
