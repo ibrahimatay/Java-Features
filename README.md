@@ -3,7 +3,7 @@
 # Core Java Features
 Examples of the Java programming language feature.
 
-## Version History
+## Specifications & Practices
 
 * [Java 11](java-11/) (September, 2018)
   * [JEP 181](https://openjdk.java.net/jeps/181): Nest-Based Access Control
