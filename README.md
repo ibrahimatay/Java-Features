@@ -1,7 +1,7 @@
 [![Java CI with Maven](https://github.com/ibrahimatay/Java-Features/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Java-Features/actions/workflows/maven.yml)
 
 # Core Java Features
-Examples of the Java programming language feature.
+This repository contains Java examples created to keep track of JEPs, JSRs, and JLRs.
 
 ## Specifications & Practices
 
