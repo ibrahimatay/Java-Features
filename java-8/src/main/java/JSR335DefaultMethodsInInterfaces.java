@@ -1,6 +1,4 @@
-package interfaces;
-
-public class Main {
+public class JSR335DefaultMethodsInInterfaces {
     public static void main(String[] args) {
         DefaultMethods defaultMethods = new DefaultMethods();
         defaultMethods.say();

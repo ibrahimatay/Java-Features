@@ -1,12 +1,13 @@
-package optional;
-
 import java.util.Optional;
 
-public class Main {
+public class JSR335Optional {
     public static void main(String[] args) {
         // https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html
 
-        Optional<Person> empty = Optional.empty();
+        // Is there a JEP for Optional?
+        // https://stackoverflow.com/questions/70724741/is-there-a-jep-for-optional
+
+        Optional<JSR335OptionalPerson> empty = Optional.empty();
 
         /*
         Optional<Person> ofNull  = Optional.of(null);
@@ -16,10 +17,10 @@ public class Main {
             at optional.Main.main(Main.java:8)
         * */
 
-        Person samplePerson = new Person("Ibrahim");
-        Optional<Person> person = Optional.of(samplePerson);
+        JSR335OptionalPerson samplePerson = new JSR335OptionalPerson("Ibrahim");
+        Optional<JSR335OptionalPerson> person = Optional.of(samplePerson);
 
-        Optional<Person> ofNullable = Optional.ofNullable(null);
+        Optional<JSR335OptionalPerson> ofNullable = Optional.ofNullable(null);
         if (ofNullable.isPresent()) {
             System.out.println("ofNullable variable is not a null");
         } else {
@@ -38,15 +39,15 @@ public class Main {
             at optional.Main.main(Main.java:24)
         * */
 
-        Person newInstance = ofNullable.orElseGet(()-> new Person("Aslı"));
+        JSR335OptionalPerson newInstance = ofNullable.orElseGet(()-> new JSR335OptionalPerson("Aslı"));
 
     }
 }
 
-class Person {
+class JSR335OptionalPerson {
     public String name;
 
-    public Person(String name) {
+    public JSR335OptionalPerson(String name) {
         this.name = name;
     }
 }

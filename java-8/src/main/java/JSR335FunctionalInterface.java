@@ -1,6 +1,4 @@
-package functionalinterface;
-
-public class Main {
+public class JSR335FunctionalInterface {
     public static void main(String[] args) {
         String word = "Aslı";
         StringLength<String, Integer> length = s -> s.length();

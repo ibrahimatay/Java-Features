@@ -53,14 +53,15 @@ Examples of the Java programming language feature.
 
 * [Java 8](java-8/) (March, 2014)
   * [JEP 135](https://openjdk.java.net/jeps/135): Base64 Encoding & Decoding
-  * [JEP 150](https://openjdk.java.net/jeps/150): Date & Time API
   * [JEP 174](https://openjdk.java.net/jeps/174): Nashorn JavaScript Engine
-  * Method Reference
-  * Stream API
-  * Base64
-  * Static and Default Methods in Interface
-  * Functional interface 
-  * Optional 
+  * [JEP 150](https://openjdk.java.net/jeps/150): Date & Time API
+  * [JEP 107](https://openjdk.java.net/jeps/107): Bulk Data Operations for Collections / Streams (java.util.stream)
+  * [JSR 335](https://jcp.org/en/jsr/detail?id=335)
+    * Lambda Expressions
+    * Default Methods in Interfaces
+    * Functional Interfaces
+    * Optional
+    * Method References
 
 ## Notes
 - [The Java Version Almanac](https://javaalmanac.io/)

@@ -1,12 +1,13 @@
-package stream;
-
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Main {
+public class JEP107BulkDataOperationsForCollections {
     public static void main(String[] args) {
         // https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
+
+        // JEP 107: Bulk Data Operations for Collections
+        // https://openjdk.org/jeps/107
 
         Stream<String> streamEmpty = Stream.empty(); // empty stream
 
