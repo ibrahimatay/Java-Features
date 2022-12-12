@@ -68,4 +68,5 @@ This repository contains Java examples created to keep track of JEPs, JSRs, and 
 - [JDK Release Notes](https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html)
 - [Place to get early releases from Oracle's JDK](https://jdk.java.net/)
 - [OpenJDK Projects](https://openjdk.java.net/projects/)
+- [List of all Java Specification Requests (JSRs)](https://jcp.org/en/jsr/all)
 - [What is the difference (or relation) between JLS, JSR and JEP?](https://stackoverflow.com/questions/51282326/what-is-the-difference-or-relation-between-jls-jsr-and-jep)
