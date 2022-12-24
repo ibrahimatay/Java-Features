@@ -1,7 +1,7 @@
 [![Java CI with Maven](https://github.com/ibrahimatay/Java-Features/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Java-Features/actions/workflows/maven.yml)
 
 # Core Java Features
-This repository contains Java examples that are designed to track and document the progress of Java Enhancement Proposals (JEPs), Java Specification Requests (JSRs), and Java Language Revisions (JLRs). These examples provide a comprehensive overview of the various changes, updates, and improvements made to the Java language and platform over time
+This repository contains Java examples that are designed to track and document the progress of Java Enhancement Proposals (JEPs), Java Specification Requests (JSRs), and Java Language Revisions (JLRs). These examples provide a comprehensive overview of the various changes, updates, and improvements made to the Java language and platform over time.
 
 ## Specifications & Practices
 
