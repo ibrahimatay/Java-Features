@@ -63,6 +63,17 @@ This repository contains Java examples that are designed to track and document t
     * Optional
     * Method References
 
+* [Java 5](java-5/) (September, 2004) / *I working on the version*
+  * [JSR 201](https://jcp.org/en/jsr/detail?id=201)
+    * Enumerations
+    * Autoboxing
+    * Enhanced for loops
+    * Static Import
+  * API Improvements
+    * Varargs (`public static void greets(String greeting, String... names)`)
+    * Enhanced `for-each` loop: `for ( : )`
+    * `static import` Statement (`import static java.lang.Math.PI;`)
+
 ## Notes
 - [The Java Version Almanac](https://javaalmanac.io/)
 - [JDK Release Notes](https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html)
