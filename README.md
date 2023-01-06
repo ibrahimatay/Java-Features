@@ -81,3 +81,4 @@ This repository contains Java examples that are designed to track and document t
 - [OpenJDK Projects](https://openjdk.java.net/projects/)
 - [List of all Java Specification Requests (JSRs)](https://jcp.org/en/jsr/all)
 - [What is the difference (or relation) between JLS, JSR and JEP?](https://stackoverflow.com/questions/51282326/what-is-the-difference-or-relation-between-jls-jsr-and-jep)
+- [Maven Plugins Compatibility Plan](https://maven.apache.org/developers/compatibility-plan.html)
