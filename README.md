@@ -62,7 +62,10 @@ This repository contains Java examples that are designed to track and document t
     * Functional Interfaces
     * Optional
     * Method References
-
+    
+* [Java 6](java-6/) (September, 2004)
+  * [JSR 160](https://www.jcp.org/en/jsr/detail?id=160): Management Extensions (JMX) Remote API
+  
 * [Java 5](java-5/) (September, 2004) / *I working on the version*
   * [JSR 201](https://jcp.org/en/jsr/detail?id=201)
     * Enumerations
