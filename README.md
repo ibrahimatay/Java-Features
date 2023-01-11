@@ -63,7 +63,7 @@ This repository contains Java examples that are designed to track and document t
     * Optional
     * Method References
     
-* [Java 6](java-6/) (September, 2004)
+* [Java 6](java-6/) (December, 2006)
   * [JSR 160](https://www.jcp.org/en/jsr/detail?id=160): Management Extensions (JMX) Remote API
   
 * [Java 5](java-5/) (September, 2004) / *I working on the version*
