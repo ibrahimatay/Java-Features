@@ -70,12 +70,10 @@ This repository contains Java examples that are designed to track and document t
   * [JSR 201](https://jcp.org/en/jsr/detail?id=201)
     * Enumerations
     * Autoboxing
-    * Enhanced for loops
-    * Static Import
-  * API Improvements
-    * Varargs (`public static void greets(String greeting, String... names)`)
     * Enhanced `for-each` loop: `for ( : )`
     * `static import` Statement (`import static java.lang.Math.PI;`)
+    * Varargs (`public static void greets(String greeting, String... names)`)
+
 
 ## Notes
 - [The Java Version Almanac](https://javaalmanac.io/)
