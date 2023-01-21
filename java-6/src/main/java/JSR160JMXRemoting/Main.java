@@ -1,9 +1,9 @@
-package com.ibrahimatay.JSR160JMXRemoting;
+package JSR160JMXRemoting;
 
-import com.ibrahimatay.JSR160JMXRemoting.mbean.Speaker;
-import com.ibrahimatay.JSR160JMXRemoting.mbean.SpeakerMBean;
-import com.ibrahimatay.JSR160JMXRemoting.mxbean.Message;
-import com.ibrahimatay.JSR160JMXRemoting.mxbean.MessageQueue;
+import JSR160JMXRemoting.mxbean.MessageQueue;
+import JSR160JMXRemoting.mbean.Speaker;
+import JSR160JMXRemoting.mbean.SpeakerMBean;
+import JSR160JMXRemoting.mxbean.Message;
 
 import javax.management.*;
 import java.lang.management.ManagementFactory;

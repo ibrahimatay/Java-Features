@@ -1,4 +1,4 @@
-package com.ibrahimatay.JSR160JMXRemoting.mbean;
+package JSR160JMXRemoting.mbean;
 
 public class Speaker implements SpeakerMBean {
     @Override

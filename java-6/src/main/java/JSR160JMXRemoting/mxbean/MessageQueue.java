@@ -1,4 +1,4 @@
-package com.ibrahimatay.JSR160JMXRemoting.mxbean;
+package JSR160JMXRemoting.mxbean;
 
 import java.util.Queue;
 
