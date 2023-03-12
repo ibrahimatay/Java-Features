@@ -5,6 +5,9 @@ This repository contains Java examples that are designed to track and document t
 
 ## Specifications & Practices
 
+* [Java 16](java-16/) (March, 2021)
+  * [JEP 395](https://openjdk.java.net/jeps/395): Records
+
 * [Java 11](java-11/) (September, 2018)
   * [JEP 181](https://openjdk.java.net/jeps/181): Nest-Based Access Control
   * [JEP 318](https://openjdk.java.net/jeps/318): Epsilon: A No-Op Garbage Collector
@@ -24,8 +27,7 @@ This repository contains Java examples that are designed to track and document t
       * `writeString(Path, CharSequence, OpenOption...)`
       * `writeString(Path.of("message.txt"), updatedMessage)`
     * New `Collection.toArray()` Method
-
-  
+ 
 * [Java 10](java-10/) (March, 2018)
   * [JEP 286](https://openjdk.java.net/jeps/286): Local-Variable Type Inference
   * [JEP 314](https://openjdk.java.net/jeps/314): Additional Unicode Language-Tag Extensions

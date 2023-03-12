@@ -16,6 +16,7 @@
         <module>java-5</module>
         <module>java-7</module>
         <module>java-6</module>
+        <module>java-16</module>
     </modules>
 
     <properties>
