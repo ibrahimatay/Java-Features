@@ -68,14 +68,10 @@ This repository contains Java examples that are designed to track and document t
 * [Java 6](java-6/) (December, 2006)
   * [JSR 160](https://www.jcp.org/en/jsr/detail?id=160): Management Extensions (JMX) Remote API
   
-* [Java 5](java-5/) (September, 2004) / *I working on the version*
-  * [JSR 201](https://jcp.org/en/jsr/detail?id=201)
-    * Enumerations
-    * Autoboxing
-    * Enhanced `for-each` loop: `for ( : )`
-    * `static import` Statement (`import static java.lang.Math.PI;`)
-    * Varargs (`public static void greets(String greeting, String... names)`)
-
+* [Java 5](java-5/) (September, 2004) 
+  * [JSP 14](https://jcp.org/en/jsr/detail?id=14): Generics
+  * [JSP 175](https://jcp.org/en/jsr/detail?id=175): Annotations 
+  * [JSP 201](https://jcp.org/en/jsr/detail?id=201): `static import` Statement (`import static java.lang.Math.PI;`)
 
 ## Notes
 - [The Java Version Almanac](https://javaalmanac.io/)
