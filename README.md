@@ -69,10 +69,12 @@ This repository contains Java examples that are designed to track and document t
   * [JSR 160](https://www.jcp.org/en/jsr/detail?id=160): Management Extensions (JMX) Remote API
   
 * [Java 5](java-5/) (September, 2004) 
-  * [JSP 14](https://jcp.org/en/jsr/detail?id=14): Generics
-  * [JSP 175](https://jcp.org/en/jsr/detail?id=175): Annotations 
-  * [JSP 201](https://jcp.org/en/jsr/detail?id=201): `static import` Statement (`import static java.lang.Math.PI;`)
-  * [JSP 201](https://jcp.org/en/jsr/detail?id=201): For-each Loops (`for ( : )`)
+  * [JSR 14](https://jcp.org/en/jsr/detail?id=14): Generics
+  * [JSR 175](https://jcp.org/en/jsr/detail?id=175): Annotations 
+  * [JSR 201](https://jcp.org/en/jsr/detail?id=201)
+    * `static import` Statement (`import static java.lang.Math.PI;`)
+    * For-each Loops (`for ( : )`)
+    * Var Args (`public static void greets(String greeting, String... names)`)
 
 ## Notes
 - [The Java Version Almanac](https://javaalmanac.io/)
