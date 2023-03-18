@@ -64,14 +64,18 @@ This repository contains Java examples that are designed to track and document t
     * Functional Interfaces
     * Optional
     * Method References
+
+* [Java 7](java-7/) (September, 2011)
     
 * [Java 6](java-6/) (December, 2006)
   * [JSR 160](https://www.jcp.org/en/jsr/detail?id=160): Management Extensions (JMX) Remote API
   
 * [Java 5](java-5/) (September, 2004) 
+  * [JSR 166](https://jcp.org/en/jsr/detail?id=166): Concurrency Utilities (`java.util.concurrent`)
   * [JSR 14](https://jcp.org/en/jsr/detail?id=14): Generics
   * [JSR 175](https://jcp.org/en/jsr/detail?id=175): Annotations 
   * [JSR 201](https://jcp.org/en/jsr/detail?id=201)
+    * Autoboxing
     * `static import` Statement (`import static java.lang.Math.PI;`)
     * For-each Loops (`for ( : )`)
     * Var Args (`public static void greets(String greeting, String... names)`)
