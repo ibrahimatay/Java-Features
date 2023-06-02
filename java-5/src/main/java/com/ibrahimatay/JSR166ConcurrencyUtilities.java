@@ -3,9 +3,10 @@ package com.ibrahimatay;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class JSR166ConcurrencyUtilities {
@@ -36,12 +37,14 @@ public class JSR166ConcurrencyUtilities {
             System.out.println(atomicVariableExample.next());
         }
          */
-
-        /*
         JSR166ConcurrencyUtilities jsr166ConcurrencyUtilities = new JSR166ConcurrencyUtilities();
+        /*
+
         jsr166ConcurrencyUtilities.threadPool();;
 
          */
+
+        // jsr166ConcurrencyUtilities.callable();
     }
 
     public void threadPool() throws IOException {
@@ -58,6 +61,23 @@ public class JSR166ConcurrencyUtilities {
                     System.out.println("handled...");
                 }
             });
+        }
+    }
+
+    public void callable() {
+        ExecutorService executor = Executors.newFixedThreadPool(10);
+        List<Future<String>> list = new ArrayList<Future<String>>();
+        Callable<String> callable = new JSR166ConcurrencyCallable();
+        for (int i = 0; i < 100; i++) {
+            Future<String> future = executor.submit(callable);
+            list.add(future);
+        }
+        for(Future<String> fut : list){
+            try{
+                System.out.println(new Date()+ "::"+fut.get());
+            }catch (InterruptedException | ExecutionException e){
+                e.printStackTrace();
+            }
         }
     }
 
@@ -84,4 +104,12 @@ public class JSR166ConcurrencyUtilities {
         }
     }
 
+    class JSR166ConcurrencyCallable implements Callable<String> {
+
+        @Override
+        public String call() throws Exception {
+            Thread.sleep(100);
+            return Thread.currentThread().getName();
+        }
+    }
 }
