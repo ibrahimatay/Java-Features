@@ -7,6 +7,7 @@ This repository contains Java examples that are designed to track and document t
 
 * [Java 21](java-21) (September, 2023)
   * [JEP 430](https://openjdk.org/jeps/430): String Templates
+  * [JEP 431](https://openjdk.org/jeps/431): Sequenced Collections
 
 * [Java 16](java-16/) (March, 2021)
   * [JEP 395](https://openjdk.java.net/jeps/395): Records
