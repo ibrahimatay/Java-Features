@@ -54,15 +54,15 @@ This repository contains Java examples that are designed to track and document t
       * `Optional.orElseThrow()`
 
 * [Java 9](java-9/) (September, 2017)
-  * [JEP 110](https://openjdk.java.net/jeps/110): HTTP/2 Client
-  * [JEP 213](https://openjdk.java.net/jeps/213): Milling Project Coin
-    * The try-with-resources Improvements
-    * Private Methods in the Interface
-    * Using underscores in numeric literals
-    * SafeVarargs to Support Private Methods
+  * [JEP 110](java-9/src/main/java/com/ibrahimatay/JEP110HTTP2Client.java): HTTP/2 Client
+  * JEP 213: Milling Project Coin
+    * [The try-with-resources Improvements](java-9/src/main/java/com/ibrahimatay/JEP213MillingProjectCoin/TryWithResources.java)
+    * [Private Methods in the Interface](java-9/src/main/java/com/ibrahimatay/JEP213MillingProjectCoin/PrivateMethodInInterfaces.java)
+    * [Using underscores in numeric literals](java-9/src/main/java/com/ibrahimatay/JEP213MillingProjectCoin/UsingUnderscoresInNumericLiterals.java)
+    * [SafeVarargs to Support Private Methods](java-9/src/main/java/com/ibrahimatay/JEP213MillingProjectCoin/SafeVarargsToSupportPrivateMethods.java)
 
 * [Java 8](java-8/) (March, 2014)
-  * [JEP 135](https://openjdk.java.net/jeps/135): Base64 Encoding & Decoding
+  * [JEP 135](java-8/src/main/java/com/ibrahimatay/JEP135Base64EncodingDecoding.java): Base64 Encoding & Decoding
   * [JEP 174](https://openjdk.java.net/jeps/174): Nashorn JavaScript Engine
   * [JEP 150](https://openjdk.java.net/jeps/150): Date & Time API
   * [JEP 107](https://openjdk.java.net/jeps/107): Bulk Data Operations for Collections (`java.util.stream`)
