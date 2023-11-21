@@ -10,6 +10,9 @@ This repository contains Java examples that are designed to track and document t
   * [JEP 431](https://openjdk.org/jeps/431): Sequenced Collections
   * [JEP 444](https://openjdk.org/jeps/444): Virtual Threads
 
+* [Java 17](java-17/) (September, 2021)
+  * [JEP 409](https://openjdk.org/jeps/409): Sealed Classes
+
 * [Java 16](java-16/) (March, 2021)
   * [JEP 395](https://openjdk.java.net/jeps/395): Records
 
