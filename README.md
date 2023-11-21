@@ -9,6 +9,14 @@ This repository contains Java examples that are designed to track and document t
   * [JEP 430](java-21/src/main/java/com/ibrahimatay/JEP430StringTemplates.java): String Templates
   * [JEP 431](java-21/src/main/java/com/ibrahimatay/JEP431SequencedCollections.java): Sequenced Collections
   * [JEP 444](java-21/src/main/java/com/ibrahimatay/JEP444VirtualThreads.java): Virtual Threads
+  * API Improvements
+    * [Unicode Emoji Methods](java-21/src/main/java/com/ibrahimatay/UnicodeEmojiMethods.java)
+      * `isEmoji(int codePoint)`
+      * `isEmojiPresentation(int codePoint)`
+      * `isEmojiModifier(int codePoint)`
+      * `isEmojiModifierBase(int codePoint)`
+      * `isEmojiComponent(int codePoint)`
+      * `isExtendedPictographic(int codePoint)`
 
 * [Java 17](java-17/) (September, 2021)
   * [JEP 409](java-17/src/main/java/com/ibrahimatay/JEP409SealedClasses.java): Sealed Classes
