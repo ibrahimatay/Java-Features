@@ -1,4 +1,4 @@
-package com.ibrahimatay;
+package com.ibrahimatay.JSR201;
 
 import java.util.ArrayList;
 import java.util.Iterator;

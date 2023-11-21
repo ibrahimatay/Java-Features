@@ -1,4 +1,4 @@
-package com.ibrahimatay;
+package com.ibrahimatay.JSR201;
 
 public class JSR201Autoboxing {
 

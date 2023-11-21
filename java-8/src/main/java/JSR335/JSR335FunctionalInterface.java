@@ -1,3 +1,5 @@
+package JSR335;
+
 public class JSR335FunctionalInterface {
     public static void main(String[] args) {
         String word = "Aslı";

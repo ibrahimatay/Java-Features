@@ -62,11 +62,11 @@ This repository contains Java examples that are designed to track and document t
     * [SafeVarargs to Support Private Methods](java-9/src/main/java/com/ibrahimatay/JEP213MillingProjectCoin/SafeVarargsToSupportPrivateMethods.java)
 
 * [Java 8](java-8/) (March, 2014)
-  * [JEP 135](java-8/src/main/java/com/ibrahimatay/JEP135Base64EncodingDecoding.java): Base64 Encoding & Decoding
-  * [JEP 174](https://openjdk.java.net/jeps/174): Nashorn JavaScript Engine
-  * [JEP 150](https://openjdk.java.net/jeps/150): Date & Time API
-  * [JEP 107](https://openjdk.java.net/jeps/107): Bulk Data Operations for Collections (`java.util.stream`)
-  * [JSR 335](https://jcp.org/en/jsr/detail?id=335)
+  * [JEP 135](java-8/src/main/java/JEP135Base64EncodingDecoding.java): Base64 Encoding & Decoding
+  * [JEP 174](java-8/src/main/java/JEP174NashornJavaScriptEngine.java): Nashorn JavaScript Engine
+  * [JEP 150](java-8/src/main/java/JEP150DateTimeAPI): Date & Time API
+  * [JEP 107](java-8/src/main/java/JEP107BulkDataOperationsForCollections.java): Bulk Data Operations for Collections (`java.util.stream`)
+  * [JSR 335](java-8/src/main/java/JSR335)
     * Lambda Expressions
     * Default Methods in Interfaces
     * Functional Interfaces
@@ -76,13 +76,13 @@ This repository contains Java examples that are designed to track and document t
 * [Java 7](java-7/) (September, 2011)
     
 * [Java 6](java-6/) (December, 2006)
-  * [JSR 160](https://www.jcp.org/en/jsr/detail?id=160): Management Extensions (JMX) Remote API
+  * [JSR 160](java-6/src/main/java/JSR160JMXRemoting): Management Extensions (JMX) Remote API
   
 * [Java 5](java-5/) (September, 2004) 
-  * [JSR 166](https://jcp.org/en/jsr/detail?id=166): Concurrency Utilities (`java.util.concurrent`)
-  * [JSR 14](https://jcp.org/en/jsr/detail?id=14): Generics
-  * [JSR 175](https://jcp.org/en/jsr/detail?id=175): Annotations 
-  * [JSR 201](https://jcp.org/en/jsr/detail?id=201)
+  * [JSR 166](java-5/src/main/java/com/ibrahimatay/JSR166ConcurrencyUtilities.java): Concurrency Utilities (`java.util.concurrent`)
+  * [JSR 14](java-5/src/main/java/com/ibrahimatay/JSR14Generics.java): Generics
+  * [JSR 175](java-5/src/main/java/com/ibrahimatay/JSR175Annotations.java): Annotations 
+  * [JSR 201](java-5/src/main/java/com/ibrahimatay/JSR201)
     * Autoboxing
     * `static import` Statement (`import static java.lang.Math.PI;`)
     * For-each Loops (`for ( : )`)

@@ -1,3 +1,5 @@
+package JSR335;
+
 public class JSR335DefaultMethodsInInterfaces {
     public static void main(String[] args) {
         DefaultMethods defaultMethods = new DefaultMethods();
