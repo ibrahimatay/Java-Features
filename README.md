@@ -6,35 +6,35 @@ This repository contains Java examples that are designed to track and document t
 ## Specifications & Practices
 
 * [Java 21](java-21) (September, 2023)
-  * [JEP 430](https://openjdk.org/jeps/430): String Templates
-  * [JEP 431](https://openjdk.org/jeps/431): Sequenced Collections
-  * [JEP 444](https://openjdk.org/jeps/444): Virtual Threads
+  * [JEP 430](java-21/src/main/java/com/ibrahimatay/JEP430StringTemplates.java): String Templates
+  * [JEP 431](java-21/src/main/java/com/ibrahimatay/JEP431SequencedCollections.java): Sequenced Collections
+  * [JEP 444](java-21/src/main/java/com/ibrahimatay/JEP444VirtualThreads.java): Virtual Threads
 
 * [Java 17](java-17/) (September, 2021)
-  * [JEP 409](https://openjdk.org/jeps/409): Sealed Classes
+  * [JEP 409](java-17/src/main/java/com/ibrahimatay/JEP409SealedClasses.java): Sealed Classes
 
 * [Java 16](java-16/) (March, 2021)
-  * [JEP 395](https://openjdk.java.net/jeps/395): Records
+  * [JEP 395](java-16/src/main/java/com/ibrahimatay/JEP395Records.java): Records
 
 * [Java 11](java-11/) (September, 2018)
-  * [JEP 181](https://openjdk.java.net/jeps/181): Nest-Based Access Control
-  * [JEP 318](https://openjdk.java.net/jeps/318): Epsilon: A No-Op Garbage Collector
-  * [JEP 321](https://openjdk.java.net/jeps/321): HTTP Client (Standard)
-  * [JEP 323](https://openjdk.java.net/jeps/323): Local-Variable Syntax for Lambda Parameters
-  * [JEP 327](https://openjdk.java.net/jeps/327): Unicode 10
-  * [JEP 329](https://openjdk.java.net/jeps/329): ChaCha20 and Poly1305 Cryptographic Algorithms
-  * [JEP 332](https://openjdk.java.net/jeps/332): Transport Layer Security (TLS) 1.3
+  * [JEP 181](java-11/src/main/java/com/ibrahimatay/JEP181NestBasedAccessControl.java): Nest-Based Access Control
+  * [JEP 318](java-11/src/main/java/com/ibrahimatay/JEP318MemoryPolluter.java): Epsilon: A No-Op Garbage Collector
+  * [JEP 321](java-11/src/main/java/com/ibrahimatay/JEP321HTTPClient.java): HTTP Client (Standard)
+  * [JEP 323](java-11/src/main/java/com/ibrahimatay/JEP323LocalVariableSyntaxForLambdaParameters.java): Local-Variable Syntax for Lambda Parameters
+  * [JEP 327](java-11/src/main/java/com/ibrahimatay/JEP327Unicode10.java): Unicode 10
+  * [JEP 329](java-11/src/main/java/com/ibrahimatay/JEP329ChaCha20Poly1305.java): ChaCha20 and Poly1305 Cryptographic Algorithms
+  * [JEP 332](java-11/src/main/java/com/ibrahimatay/JEP332TLS13.java)): Transport Layer Security (TLS) 1.3
   * API Improvements
-    * New String Methods
+    * [New String Methods](java-11/src/main/java/com/ibrahimatay/NewFileMethods.java)
       * `isBlank()`
       * `lines()` 
       * `repeat()` 
       * `strip()`, `stripLeading()`, `stripTrailing()`
-    * New File Methods 
+    * [New File Methods](java-11/src/main/java/com/ibrahimatay/NewStringMethods.java) 
       * `readString(Path)`
       * `writeString(Path, CharSequence, OpenOption...)`
       * `writeString(Path.of("message.txt"), updatedMessage)`
-    * New `Collection.toArray()` Method
+    * [New `Collection.toArray()` Method](java-11/src/main/java/com/ibrahimatay/NewCollectionToArrayMethod.java)
  
 * [Java 10](java-10/) (March, 2018)
   * [JEP 286](https://openjdk.java.net/jeps/286): Local-Variable Type Inference
