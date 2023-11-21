@@ -34,20 +34,20 @@ This repository contains Java examples that are designed to track and document t
       * `readString(Path)`
       * `writeString(Path, CharSequence, OpenOption...)`
       * `writeString(Path.of("message.txt"), updatedMessage)`
-    * [New `Collection.toArray()` Method](java-11/src/main/java/com/ibrahimatay/NewCollectionToArrayMethod.java)
+    * [New Collection.toArray() Method](java-11/src/main/java/com/ibrahimatay/NewCollectionToArrayMethod.java)
  
 * [Java 10](java-10/) (March, 2018)
-  * [JEP 286](https://openjdk.java.net/jeps/286): Local-Variable Type Inference
-  * [JEP 314](https://openjdk.java.net/jeps/314): Additional Unicode Language-Tag Extensions
-  * [JEP 322](https://openjdk.java.net/jeps/322): Time-Based Release Versioning
+  * [JEP 286](java-10/src/main/java/com/ibrahimatay/JEP286LocalVariableTypeInference.java): Local-Variable Type Inference
+  * [JEP 314](java-10/src/main/java/com/ibrahimatay/JEP314AdditionalUnicodeLanguage.java): Additional Unicode Language-Tag Extensions
+  * [JEP 322](java-10/src/main/java/com/ibrahimatay/JEP322TimeBasedReleaseVersioning.java): Time-Based Release Versioning
   * API Improvements
-    * Standard Class Libraries
+    * [Standard Class Libraries](java-10/src/main/java/com/ibrahimatay/NewRuntimePIDMethods.java)
       * `java.lang.management.RuntimeMXBean.getPid()`: Returns the pid of the running JVM.
-    * New Collection Methods
+    * [New Collection Methods](java-10/src/main/java/com/ibrahimatay/NewCollectionMethods.java)
       * `List.copyOf()`
       * `Set.copyOf()` 
       * `Map.copyOf()`
-    * New Stream Methods
+    * [New Stream Methods](java-10/src/main/java/com/ibrahimatay/NewStreamMethods.java)
       * `Collectors.toUnmodifiableList() `
       * `Collectors.toUnmodifiableSet()`
       * `Collectors.toUnmodifiableMap()`
