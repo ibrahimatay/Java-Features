@@ -31,7 +31,7 @@ This repository contains Java examples that are designed to track and document t
   * [JEP 323](java-11/src/main/java/com/ibrahimatay/JEP323LocalVariableSyntaxForLambdaParameters.java): Local-Variable Syntax for Lambda Parameters
   * [JEP 327](java-11/src/main/java/com/ibrahimatay/JEP327Unicode10.java): Unicode 10
   * [JEP 329](java-11/src/main/java/com/ibrahimatay/JEP329ChaCha20Poly1305.java): ChaCha20 and Poly1305 Cryptographic Algorithms
-  * [JEP 332](java-11/src/main/java/com/ibrahimatay/JEP332TLS13.java)): Transport Layer Security (TLS) 1.3
+  * [JEP 332](java-11/src/main/java/com/ibrahimatay/JEP332TLS13.java): Transport Layer Security (TLS) 1.3
   * API Improvements
     * [New String Methods](java-11/src/main/java/com/ibrahimatay/NewFileMethods.java)
       * `isBlank()`
