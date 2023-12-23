@@ -80,6 +80,10 @@ This repository contains Java examples that are designed to track and document t
     * Functional Interfaces
     * Optional
     * Method References
+  * API Improvements
+    * `java.lang.Object.java.util.IntSummaryStatistics`
+    * `java.lang.Object.java.util.LongSummaryStatistics`
+    * `java.lang.Object.java.util.DoubleSummaryStatistics`
 
 * [Java 7](java-7/) (September, 2011)
     
