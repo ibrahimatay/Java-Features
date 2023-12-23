@@ -81,9 +81,9 @@ This repository contains Java examples that are designed to track and document t
     * Optional
     * Method References
   * API Improvements
-    * `java.lang.Object.java.util.IntSummaryStatistics`
-    * `java.lang.Object.java.util.LongSummaryStatistics`
-    * `java.lang.Object.java.util.DoubleSummaryStatistics`
+    * `java.util.IntSummaryStatistics`
+    * `java.util.LongSummaryStatistics`
+    * `java.util.DoubleSummaryStatistics`
 
 * [Java 7](java-7/) (September, 2011)
     
