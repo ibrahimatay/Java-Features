@@ -111,4 +111,5 @@ This repository contains Java examples that are designed to track and document t
 - [What is the difference (or relation) between JLS, JSR and JEP?](https://stackoverflow.com/questions/51282326/what-is-the-difference-or-relation-between-jls-jsr-and-jep)
 - [Maven Plugins Compatibility Plan](https://maven.apache.org/developers/compatibility-plan.html)
 - [VM Options Explorer](https://chriswhocodes.com/)
+- [Java modules published at Maven Central](https://github.com/sormuras/modules)
 - [Java upgrade example errors and solutions](https://github.com/johanjanssen/JavaUpgrades)
