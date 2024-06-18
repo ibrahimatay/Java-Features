@@ -7,6 +7,8 @@ This repository contains Java examples that are designed to track and document t
 
 ## Specifications & Practices
 
+* [Java 22](java-22) (March, 2024)
+
 * [Java 21](java-21) (September, 2023)
   * [JEP 430](java-21/src/main/java/com/ibrahimatay/JEP430StringTemplates.java): String Templates
   * [JEP 431](java-21/src/main/java/com/ibrahimatay/JEP431SequencedCollections.java): Sequenced Collections
