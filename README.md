@@ -5,6 +5,8 @@ This repository contains Java examples that are designed to track and document t
 
 ![image](/docs/diagrams/jdk22-diagram.PNG)
 
+****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
+
 ## Specifications & Practices
 
 * [Java 22](java-22) (March, 2024)
