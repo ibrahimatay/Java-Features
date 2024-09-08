@@ -31,6 +31,10 @@ This repository contains Java examples that are designed to track and document t
 * [Java 16](java-16/) (March, 2021)
   * [JEP 395](java-16/src/main/java/com/ibrahimatay/JEP395Records.java): Records
 
+* [Java 12](java-12/) (March, 2019)
+  * API Improvements
+    * [Compact Number Formatting](java-12/src/main/java/com/ibrahimatay/CompactNumberFormatting.java)
+
 * [Java 11](java-11/) (September, 2018)
   * [JEP 181](java-11/src/main/java/com/ibrahimatay/JEP181NestBasedAccessControl.java): Nest-Based Access Control
   * [JEP 318](java-11/src/main/java/com/ibrahimatay/JEP318MemoryPolluter.java): Epsilon: A No-Op Garbage Collector
