@@ -14,6 +14,7 @@ This repository contains Java examples that are designed to track and document t
   * [JEP 467](java-23/src/main/java/com/ibrahimatay/JEP467MarkdownDocumentationComments.java): Markdown Documentation Comments
   * [JEP 455](java-23/src/main/java/com/ibrahimatay/JEP455PrimitiveTypesInPatternsInstanceofAndSwitch.java): Primitive Types in Patterns, instanceof, and switch]
   * [JEP 476](java-23/src/main/java/com/ibrahimatay/JEP476ModuleImportDeclarations.java): Module Import Declarations]
+  * [JEP 474](java-23/src/main/java/com/ibrahimatay/JEP474ZGCGenerationalModeByDefault.sh): ZGC: Generational Mode by Default
 
 * [Java 22](java-22/) (March, 2024)
   * [JEP 458](java-22/src/main/java/com/ibrahimatay/JEP458LaunchMultiFileSourceCode.java): Launch Multi-File Source-Code Programs
