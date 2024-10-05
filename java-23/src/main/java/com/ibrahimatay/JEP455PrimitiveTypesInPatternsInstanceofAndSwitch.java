@@ -14,6 +14,29 @@ public class JEP455PrimitiveTypesInPatternsInstanceofAndSwitch {
         // 200 HTTP status code refers to a OK
         // 403 HTTP status code refers to a Client Error
         // 0 HTTP status code refers to a Unknown error
+
+        // An employee is calling me. class com.ibrahimatay.Employee
+        whoCallMe(new Employee());
+
+        // An employee is calling me. class com.ibrahimatay.Boss
+        whoCallMe(new Boss());
+
+        // Wrong number.
+        whoCallMe(null);
+    }
+
+    public static void whoCallMe(Human human) {
+        if (human instanceof Employee employee) {
+            System.out.printf("An employee is calling me. %1$s%n", employee.getClass());
+            return;
+        }
+
+        if (human instanceof Boss boss) {
+            System.out.printf("An employee is calling me. %1$s%n", boss.getClass());
+            return;
+        }
+
+        System.out.println("Wrong number.");
     }
 
     public static String getHTTPCodeDesc(int code) {
@@ -34,3 +57,7 @@ public class JEP455PrimitiveTypesInPatternsInstanceofAndSwitch {
         };
     }
 }
+
+interface Human {}
+class Employee implements Human {}
+class Boss implements Human {}
