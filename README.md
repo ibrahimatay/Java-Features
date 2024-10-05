@@ -10,10 +10,10 @@ This repository contains Java examples that are designed to track and document t
 ## Specifications & Practices
 
 * [Java 23](java-23/) (September, 2024)
-  * [JEP 455](java-23/src/main/java/com/ibrahimatay/JEP455PrimitiveTypesInPatternsInstanceofAndSwitch.java): Primitive Types in Patterns, instanceof, and switch]
+  * [JEP 455](java-23/src/main/java/com/ibrahimatay/JEP455PrimitiveTypesInPatternsInstanceofAndSwitch.java): Primitive Types in Patterns, instanceof, and switch
   * [JEP 467](java-23/src/main/java/com/ibrahimatay/JEP467MarkdownDocumentationComments.java): Markdown Documentation Comments
   * [JEP 474](java-23/src/main/java/com/ibrahimatay/JEP474ZGCGenerationalModeByDefault.sh): ZGC: Generational Mode by Default
-  * [JEP 476](java-23/src/main/java/com/ibrahimatay/JEP476ModuleImportDeclarations.java): Module Import Declarations]
+  * [JEP 476](java-23/src/main/java/com/ibrahimatay/JEP476ModuleImportDeclarations.java): Module Import Declarations
   * [JEP 477](java-23/src/main/java/com/ibrahimatay/JEP477ImplicitlyDeclaredClassesAndInstanceMainMethods.java): Implicitly Declared Classes and Instance Main Methods
   * API Improvements
     * [JEP 473](java-23/src/main/java/com/ibrahimatay/StreamGathererMethod.java): Stream Gatherers
