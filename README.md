@@ -42,7 +42,8 @@ This repository contains Java examples that are designed to track and document t
 
 * [Java 14](java-14/) (March, 2020)
   * [JEP 361](java-14/src/main/java/com/ibrahimatay/JEP361SwitchExpressions.java): Switch Expressions
-  
+  * [JEP 359](java-14/src/main/java/com/ibrahimatay/JEP359Records.java): Records (Preview)
+
 * [Java 12](java-12/) (March, 2019)
   * API Improvements
     * [Compact Number Formatting](java-12/src/main/java/com/ibrahimatay/CompactNumberFormatting.java)
