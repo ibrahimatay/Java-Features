@@ -111,21 +111,6 @@ This repository contains Java examples that are designed to track and document t
     * `java.util.LongSummaryStatistics`
     * `java.util.DoubleSummaryStatistics`
 
-* [Java 7](java-7/) (September, 2011)
-    
-* [Java 6](java-6/) (December, 2006)
-  * [JSR 160](java-6/src/main/java/JSR160JMXRemoting): Management Extensions (JMX) Remote API
-  
-* [Java 5](java-5/) (September, 2004) 
-  * [JSR 166](java-5/src/main/java/com/ibrahimatay/JSR166ConcurrencyUtilities.java): Concurrency Utilities (`java.util.concurrent`)
-  * [JSR 14](java-5/src/main/java/com/ibrahimatay/JSR14Generics.java): Generics
-  * [JSR 175](java-5/src/main/java/com/ibrahimatay/JSR175Annotations.java): Annotations 
-  * [JSR 201](java-5/src/main/java/com/ibrahimatay/JSR201)
-    * Autoboxing
-    * `static import` Statement (`import static java.lang.Math.PI;`)
-    * For-each Loops (`for ( : )`)
-    * Var Args (`public static void greets(String greeting, String... names)`)
-
 ## Notes
 - [The Java Version Almanac](https://javaalmanac.io/)
 - [JDK Release Notes](https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html)
