@@ -41,6 +41,10 @@ This repository contains Java examples that are designed to track and document t
   * [JEP 395](java-16/src/main/java/com/ibrahimatay/JEP395Records.java): Records
 
 * [Java 14](java-14/) (March, 2020)
+  * [JEP 361](java-14/src/main/java/com/ibrahimatay/JEP361SwitchExpressions.java): Switch Expressions
+  * [JEP 359](java-14/src/main/java/com/ibrahimatay/JEP359Records.java): Records (Preview)
+  * [JEP 369](java-14/src/main/java/com/ibrahimatay/JEP368TextBlocks.java): Text Blocks (Second Preview)
+  * [JEP 305](java-14/src/main/java/com/ibrahimatay/JEP305PatternMatchingForInstanceof.java): Pattern Matching for instanceof (Preview)
 
 * [Java 12](java-12/) (March, 2019)
   * API Improvements
