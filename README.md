@@ -10,6 +10,7 @@ This repository contains Java examples that are designed to track and document t
 ## Specifications & Practices
 
 * [Java 24](java-24/) (March, 2025)
+  * [JEP 488](java-24/src/main/java/com/ibrahimatay/JEP488PrimitiveTypesInPatternsInstanceofAndSwitch.java): Primitive Types in Patterns, instanceof, and switch
 
 * [Java 23](java-23/) (September, 2024)
   * [JEP 455](java-23/src/main/java/com/ibrahimatay/JEP455PrimitiveTypesInPatternsInstanceofAndSwitch.java): Primitive Types in Patterns, instanceof, and switch
