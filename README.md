@@ -9,6 +9,8 @@ This repository contains Java examples that are designed to track and document t
 
 ## Specifications & Practices
 
+* [Java 24](java-24/) (March, 2025)
+
 * [Java 23](java-23/) (September, 2024)
   * [JEP 455](java-23/src/main/java/com/ibrahimatay/JEP455PrimitiveTypesInPatternsInstanceofAndSwitch.java): Primitive Types in Patterns, instanceof, and switch
   * [JEP 467](java-23/src/main/java/com/ibrahimatay/JEP467MarkdownDocumentationComments.java): Markdown Documentation Comments
