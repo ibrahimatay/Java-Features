@@ -9,6 +9,12 @@ This repository contains Java examples that are designed to track and document t
 
 ## Specifications & Practices
 
+* [Java 24](java-24/) (March, 2025)
+  * [JEP 488](java-24/src/main/java/com/ibrahimatay/JEP488PrimitiveTypesInPatternsInstanceofAndSwitch.java): Primitive Types in Patterns, instanceof, and switch
+  * [JEP 495](java-24/src/main/java/com/ibrahimatay/JEP495SimpleSourceFilesAndInstanceMainMethods.java): Simple Source Files and Instance Main Methods
+  * [JEP 485](java-24/src/main/java/com/ibrahimatay/JEP485StreamGatherers.java): Stream Gatherers
+  * [JEP 487](java-24/src/main/java/com/ibrahimatay/JEP487ScopedValues.java): Scoped Values
+
 * [Java 23](java-23/) (September, 2024)
   * [JEP 455](java-23/src/main/java/com/ibrahimatay/JEP455PrimitiveTypesInPatternsInstanceofAndSwitch.java): Primitive Types in Patterns, instanceof, and switch
   * [JEP 467](java-23/src/main/java/com/ibrahimatay/JEP467MarkdownDocumentationComments.java): Markdown Documentation Comments
