@@ -3,7 +3,7 @@
 # Core Java Features
 This repository contains Java examples that are designed to track and document the progress of Java Enhancement Proposals (JEPs), Java Specification Requests (JSRs), and Java Language Revisions (JLRs). These examples provide a comprehensive overview of the various changes, updates, and improvements made to the Java language and platform over time.
 
-![image](/docs/diagrams/jdk22-diagram.PNG)
+![image](/docs/diagrams/jdk24-diagram.PNG)
 
 ****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
 
