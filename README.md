@@ -11,9 +11,10 @@ This repository contains Java examples that are designed to track and document t
 ## Specifications & Practices
 
 * [Java 25](java-25/) (September, 2025)
-    * [JEP 513](java-25/src/main/java/JEP513FlexibleConstructorBodies.java): Flexible Constructor Bodies
-    * [JEP 512](java-25/src/main/java/JEP512CompactSourceFilesAndInstanceMainMethods.java): Compact Source Files and Instance Main Methods
+  * [JEP 513](java-25/src/main/java/JEP513FlexibleConstructorBodies.java): Flexible Constructor Bodies
+  * [JEP 512](java-25/src/main/java/JEP512CompactSourceFilesAndInstanceMainMethods.java): Compact Source Files and Instance Main Methods
   * [JEP 511](java-25/src/main/java/JEP511ModuleImportDeclarations.java): Module Import Declarations
+  * [JEP 506](java-25/src/main/java/JEP506ScopedValues.java): Scoped Values
 
 * [Java 24](java-24/) (March, 2025)
   * [JEP 488](java-24/src/main/java/JEP488PrimitiveTypesInPatternsInstanceofAndSwitch.java): Primitive Types in Patterns, instanceof, and switch
