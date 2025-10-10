@@ -2,6 +2,9 @@
 // JEP 512: Compact Source Files and Instance Main Methods
 // https://openjdk.org/jeps/512
 
+// Compact Source Files and Instance main Methods
+// https://docs.oracle.com/en/java/javase/25/language/compact-source-files-and-instance-main-methods.html
+
 void main() {
     IO.println("Hello, World!");
 
