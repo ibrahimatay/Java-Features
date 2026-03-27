@@ -22,6 +22,7 @@
         <module>java-14</module>
         <module>java-24</module>
         <module>java-25</module>
+        <module>java-26</module>
     </modules>
 
     <properties>
