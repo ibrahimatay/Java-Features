@@ -11,7 +11,7 @@ This repository contains Java examples that are designed to track and document t
 ## Specifications & Practices
 
 * [Java 26](java-26/) (March, 2026)
-
+    * [JEP 500](java-26/src/main/java/JEP500PrepareToMakeFinalMeanFinal.java): Prepare to Make Final Mean Final
 * [Java 25](java-25/) (September, 2025)
   * [JEP 513](java-25/src/main/java/JEP513FlexibleConstructorBodies.java): Flexible Constructor Bodies
   * [JEP 512](java-25/src/main/java/JEP512CompactSourceFilesAndInstanceMainMethods.java): Compact Source Files and Instance Main Methods
